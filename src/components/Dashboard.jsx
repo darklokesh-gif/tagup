@@ -22,6 +22,7 @@ function Dashboard() {
       setUser(currentUser);
       setFormData(currentUser);
       setPreviewImage(currentUser.profilePic); // Set initial profile pic preview
+      
     }
   }, [navigate]);
 
